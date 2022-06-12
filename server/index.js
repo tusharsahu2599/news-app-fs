@@ -20,7 +20,7 @@ app.get('/newstories', newsController);
 
 app.listen(port, () => {
     connect();
-    console.log(`Server is running on port ${port}`);
+    console.log(`server is running on ${port}`);
 }
 );
 
